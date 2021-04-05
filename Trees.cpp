@@ -18,6 +18,7 @@ class node
 
 
 // Node return Type of pointer 
+
 node *buildtree()        //will  return root node pointer 
 {
     int d;
@@ -87,7 +88,12 @@ void postorder(node* root)
         cout<<root->data<<" ";
     }
 }
-        // Level_order: root is send and printing it's LEVELORDER
+
+
+
+	// Level_order: root is send and printing it's LEVELORDER
+
+
 
 void levelorder(node*root)
 {
@@ -185,7 +191,7 @@ int countnodesoftwodegree(node*root)
     return 0;
 }
 
-//Counting nodes of one degree 
+	//Counting nodes of one degree 
 
 int countnodesofonedegree(node*root)
 {
@@ -225,5 +231,9 @@ int main()
     cout<<"HEight = "<<height(root)<<endl;
     cout<<"NODE with 2 degree"<<countnodesoftwodegree(root)<<endl;
     cout<<"LEAF Nodes = "<<countleafnode(root)<<endl;
+	
+	
+	
+	
     return 0;
 }
