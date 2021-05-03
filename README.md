@@ -2,11 +2,13 @@
 
 
 
-**1) Binary Search Tree For Sorted Array !**                   **2) Optimal Binary Search Tree For Sorted Array !**
+**1) Binary Search Tree For Sorted Array !**               
 
-<img src="https://github.com/kamleshjoshi8102/imgbot/blob/main/binary-search-tree-sorted-array-animation.gif" alt="" style="max-width:100%;">  <img src="https://github.com/kamleshjoshi8102/imgbot/blob/main/binary-search-tree-sorted-array-animation.gif" alt="" style="max-width:100%;">
+<img src="https://github.com/kamleshjoshi8102/imgbot/blob/main/binary-search-tree-sorted-array-animation.gif" alt="" style="max-width:100%;">
 
-
+**2) Optimal Binary Search Tree For Sorted Array !**
+    
+<img src="https://github.com/kamleshjoshi8102/imgbot/blob/main/binary-search-tree-sorted-array-animation.gif" alt="" style="max-width:100%;">
 
 **3) Insertion In Binary  Search Tree!**
 
