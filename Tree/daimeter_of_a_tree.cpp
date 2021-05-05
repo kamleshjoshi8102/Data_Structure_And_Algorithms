@@ -50,8 +50,8 @@ int daimeter (node*root)
 int main()
 {
     node *root=buildtree();
-    levelorder(root);
-
+    int dai=daimeter(root);
+    cout<<dai<<"\n";
 
 
 
