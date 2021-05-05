@@ -40,7 +40,7 @@ node *buildtree()        //will  return root node pointer
 
 
 
-void levelorder(node*root)
+void reverse_levelorder(node*root)
 {
     if(root==NULL)
     {
@@ -72,7 +72,7 @@ void levelorder(node*root)
 int main()
 {
     node *root=buildtree();
-    levelorder(root);
+    cout<<reverse_levelorder(root)<<endl;
 
 
 
