@@ -31,7 +31,7 @@ int height(node*root)
 int main()
 {
     node *root=buildtree();
-    levelorder(root);
+    cout<<height(root)<<endl;
 
 
 
