@@ -16,6 +16,7 @@ class node
         }
 };
 
+
 // Node return Type of pointer 
 node *buildtree()        //will  return root node pointer 
 {
