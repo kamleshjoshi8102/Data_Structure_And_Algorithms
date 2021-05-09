@@ -60,7 +60,7 @@ int main()
 {
     node *root=buildtree();
 
-    iterativeInorder(root);
+    recursive_postorder(root);
 
 
 
