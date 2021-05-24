@@ -15,7 +15,8 @@ int main(void)
         for(int i=0;i<n;i++)
         {
             cin>>temp;
-            ans=ans^temp;
+            ans=ans^temp; // trying to take XOR of all elements then we'll have only a single element which is unique becox
+                          //  xor of 2 same number's is 0 so duplicates will be cancelled out we'll have only one unique number left
         }
         cout<<ans<<en;
 
