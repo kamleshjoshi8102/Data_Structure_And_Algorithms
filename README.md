@@ -1,4 +1,4 @@
-# Data_Structure & Alogorithms
+# Data_Structure & Algorithms
 
 
 
