@@ -22,9 +22,9 @@ void generate_subset(vector<int>a,int idx,vector<int>osf)
         cout<<en;
         return;
     }
-    generate_subset(a,idx+1,osf);
-    osf.pb(a[idx]);
-    generate_subset(a,idx+1,osf);
+    generate_subset(a,idx+1,osf); // not taking a[idx] in current subset
+    osf.pb(a[idx]);                 // pushing a[idx]
+    generate_subset(a,idx+1,osf);   // taking a[idx]
 }
 
 
